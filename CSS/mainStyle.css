@@ -1,0 +1,109 @@
+
+/*The colors at the top of the page*/
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 50px;
+}
+.red {
+    background-color: #C0262C;
+    height: 200px;
+    width: 20%;
+}
+
+.orange {
+    background-color: #F17341;
+    height: 200px;
+    width: 20%;
+}
+
+.yellow {
+    background-color: #FBB542;
+    height: 200px;
+    width: 20%;
+}
+.blue {
+    background-color: #107877;
+    height: 200px;
+    width: 20%;
+}
+
+.purple {
+    background-color: #7F1839;
+    height: 200px;
+    width: 20%;
+}
+
+/*The name at the top of the page*/
+
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin-left: 185px;
+    margin-top: -10px;  
+}
+
+/*The headings above the sections*/
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color:  #107877;
+    font-size: 
+}
+
+/*Setting the text for the page*/
+
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    color: #7F1839;
+}
+
+/* Setting the margins for the whole page*/
+
+container {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.firstSection {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.secondSection {
+    width: 100%;
+    height: 250px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.one {
+    max-width: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.two {
+    max-width: 50%;
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+
+
