@@ -71,15 +71,16 @@ p {
 
 /* Setting the margins for the whole page*/
 
-container {
-    margin-left: 40px;
-    margin-right: 40px;
+article {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .firstSection {
     width: 100%;
-    height: 500px;
     margin: 0 auto;
 }
 
@@ -88,15 +89,17 @@ container {
     height: 250px;
 }
 
-img {
+.pie_chart {
     height: 200px;
     width: 200px;
+    
 }
 
 .one {
     max-width: 50%;
     display: inline-block;
-    margin: 20px;
+    /* margin: 20px; */
+    margin-top: -50px;
 }
 
 .two {
@@ -105,5 +108,18 @@ img {
     margin-left: 40px;
    
 }
+
+.top_of_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.self {
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+
 
 
