@@ -5,6 +5,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
+    background-color: whitesmoke;
 }
 .colors {
     display: flex;
@@ -45,12 +46,25 @@ body {
 
 /*The name at the top of the page*/
 
+.topOfPage {
+    max-height: 200px;
+
+}
+
+.Tuttle {
+   position: absolute;
+   margin-left: 20px;
+   height: 250px;
+   width: 250px;
+}
+
 h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 100px;
     color: white;
-    margin-left: 185px;
-    margin-top: -10px;  
+    /*margin-left: 158px;*/
+    margin-top: -10px;
+    margin-left: 360px;  
 }
 
 /*The headings above the sections*/
@@ -67,6 +81,8 @@ p {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
     color: #7F1839;
+    margin-right: -35px;
+    /* text-align: right; */
 }
 
 /* Setting the margins for the whole page*/
@@ -75,24 +91,60 @@ container {
     margin-left: 40px;
     margin-right: 40px;
     padding: 20px;
+    
 }
 
 .firstSection {
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
-    margin: 0 auto;
+    /* margin-top: 100px;
+    text-align: center; */
 }
 
 .secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
-    height: 250px;
 }
 
-img {
-    height: 200px;
-    width: 200px;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
+.projects1 {
+    width: 50%;
+}
+
+.firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 30%; 
+}
+
+.project {
+    width: 30%;
+    
+}
+
+.one {
+    width: 48%;
+}
+
+.two {
+    width: 48%;
+}
+.PieChart {
+    height: 300px;
+    width: 300px;
+    margin-left: 120px;
+    /* margin-top: 50px; */
+}
+/* 
 .one {
     max-width: 50%;
     display: inline-block;
@@ -104,6 +156,18 @@ img {
     display: inline-block;
     margin-left: 40px;
    
+} */
+
+nav {
+    position: absolute;
+    margin-top: 60px;
+    width: 20%;
+    background-color: #107877;
+    color: lightyellow;
+    font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+
 }
 
 
