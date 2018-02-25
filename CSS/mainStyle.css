@@ -15,30 +15,30 @@ body {
     height: 50px;
 }
 .red {
-    background-color: #C0262C;
+    background-color: #89BEC0;
     height: 200px;
     width: 20%;
 }
 
 .orange {
-    background-color: #F17341;
+    background-color: #A9CFCA;
     height: 200px;
     width: 20%;
 }
 
 .yellow {
-    background-color: #FBB542;
+    background-color: #D8C2A5;
     height: 200px;
     width: 20%;
 }
 .blue {
-    background-color: #107877;
+    background-color: #C9A58C;
     height: 200px;
     width: 20%;
 }
 
 .purple {
-    background-color: #7F1839;
+    background-color: #E58340;
     height: 200px;
     width: 20%;
 }
@@ -50,7 +50,8 @@ h1 {
     font-size: 100px;
     color: white;
     margin-left: 185px;
-    margin-top: -10px;  
+    margin-top: -20px;  
+    margin-right: 30px;
 }
 
 /*The headings above the sections*/
@@ -76,7 +77,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    margin: 0 auto;
+    margin-left: 300px;
 }
 
 .first_section {
@@ -94,6 +95,7 @@ article {
 .pie_chart {
     height: 200px;
     width: 200px;
+    margin-left: 30px;
     
 }
 
@@ -120,6 +122,11 @@ article {
     margin-left: 30px;
     width: 200px;
     height: 200px;
+    background-color: rgba(192, 111, 36, 0.1);
+    /* background-color: transparent; */
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: -20px;
 }
 
 .projects {
@@ -135,11 +142,16 @@ li {
 
 .what_do {
     width: 45%;
+    margin-left: 30px;
 }
 
 .project_image {
     width: 150px;
     height: 100px;
     margin: 5px;
+}
+
+.first_section, .second_section {
+    
 }
 
